@@ -1,0 +1,10 @@
+importfilelist
+{
+	"file"	"camo_c_is_unused.vmt"
+	"file"	"sleeves_c_is_unused.vmt"
+	"file"	"intervention_diff_is_unused.vmt"
+	"file"	"diff_is_unused.vmt"
+	"file"	"scope_diff_is_unused.vmt"
+	"file"	"lens_diff2_is_unused.vmt"
+	"file"	"lens_diff_is_unused.vmt"
+}

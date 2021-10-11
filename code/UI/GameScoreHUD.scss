@@ -1,0 +1,73 @@
+﻿.scoreBack {
+    position: absolute;
+    left: 50px;
+    padding: 1px;
+    background-color: rgba(50, 50, 50, 0.15);
+
+    &.current{
+        bottom: 75px;
+    }
+
+    &.enemy{
+        bottom: 50px;
+    }
+}
+
+.score {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    text-shadow: 0 0 3px black;
+    font-size: 20px;
+
+    &.curr {
+        text-shadow: 0px 0px 10px rgba(0,255,0,1);
+        font-weight: bold;
+    }
+}
+
+.scoreBarBack {
+    position: fixed;
+    margin-left: 10px;
+    width: 300px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.8));
+}
+
+.scoreBar {
+    width: 0%;
+
+    &.curr {
+        background-image: linear-gradient(to right, rgba(0,150,0,0.01), rgba(0,150,0,1));
+    }
+
+    &.enemy {
+        background-image: linear-gradient(to right, rgba(200,0,0,0.01), rgba(200,0,0,1));
+    }
+}
+
+.scoreBarEnd {
+    width: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 3px 1px black;
+}
+
+.currPosition {
+    position: absolute;
+    left: 30px;
+    bottom: 50px;
+    padding: 1px;
+
+    &.label {
+        font-size: 30px;
+        color: yellow;
+        text-shadow: 0 0 5px black;
+
+        &.winning{
+            color: green;
+        }
+        &.losing{
+            color: red;
+        }
+    }
+}
+
